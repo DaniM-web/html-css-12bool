@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row1, .row3{
+  width: 100%;
+  background-color: pink;
+  text-align: center;
+}
+
+ .col-1 {
+   padding: 75px 0;
+   border: 1px solid black;
+ }
+
+.row2{
+  width: 100%;
+  padding-top: 80px;
+  background-color: red;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.row3 > .col-8,
+.row3 > .col-2 {
+  border: 1px solid black;
+  padding: 75px 0;
+}
