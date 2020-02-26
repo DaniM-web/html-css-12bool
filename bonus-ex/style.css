@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+ background-color: #e6bc53;
+ padding-top: 30px;
+}
+.col-1{
+  border: 1px solid black;
+  height: 60px;
+  text-align: center;
+  padding: 5px;
+}
+
+.panna{
+  background-color: #F5F5DC;
+}
+
+.verde{
+  background-color: #00FFB2;
+}
+
+p{
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.row5 > .col-12 {
+  background-image: url("texture.jpg");
+  height: 60px;
+}
+
+h1{
+  color: #fff;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 3px 3px black;
+}
+
+.row6{
+  background-color: #e6bc53;
+}
+
+img{
+  width: 500px;
+  height: auto;
+}
