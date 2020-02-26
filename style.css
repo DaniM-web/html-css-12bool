@@ -10,14 +10,14 @@
   text-align: center;
 }
 
- .col-1 {
+ .row1 > .col-1 {
    padding: 75px 0;
    border: 1px solid black;
  }
 
 .row2{
   width: 100%;
-  padding-top: 80px;
+  padding: 75px 0;
   background-color: red;
   text-align: center;
   border: 1px solid black;
@@ -26,5 +26,36 @@
 .row3 > .col-8,
 .row3 > .col-2 {
   border: 1px solid black;
+  padding: 75px 0;
+}
+
+.row4 {
+  width: 100%;
+  background-color: red;
+  text-align: center;
+}
+  .row4 > .col-1,
+  .row4 > .col-2,
+  .row4 > .col-6{
+    border: 1px solid black;
+    padding: 75px 0;
+  }
+
+  .row5{
+    width: 100%;
+    text-align: center;
+  }
+
+.nest1, .nest2{
+  padding: 10px;
+  background-color: pink;
+  border: 1px solid black;
+}
+
+.nest1 > .col-2,
+.nest1 > .col-8,
+.nest2 > .col-6 {
+  background-color: salmon;
+  border: 1px solid #fff;
   padding: 75px 0;
 }
