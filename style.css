@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: lightblue;
+  padding-top: 30px;
+}
+
 .row1, .row3{
   width: 100%;
   background-color: pink;
